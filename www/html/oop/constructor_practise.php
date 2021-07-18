@@ -1,8 +1,7 @@
 <?php
     class Person {
 
-        public $name ; // Property
-        public $salary ;
+        public $name , $salary ;
 
         public function __construct($setName, $setSalary)
         {
@@ -16,5 +15,5 @@
         }
     }
 
-    $getName = new Person('Mahe Karim', '25.000BDT');
+    $getName = new Person('Mahe Karim', '25.000 BDT');
     $getName->show();
